@@ -7,8 +7,28 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <h1 class="titulo">Cauan Dutra</h1>
-    <h4 class="subtitulo">Robotics Engineer</h2>
-    <hr>
-    <p class="paragrafo">ola eu sou o cauan</p>
+    <div class="terminal-window">
+        <div class="terminal-header">
+            <div class="terminal-title">user@ubuntu: ~/projetos/maker</div>
+            <div class="terminal-buttons">
+                <div class="button minimize"></div>
+                <div class="button maximize"></div>
+                <div class="button close"></div>
+            </div>
+        </div>
+        
+        <div class="terminal-body">
+            <div><span class="prompt-user">user@ubuntu</span>:<span class="prompt-dir">~/projetos/maker</span>$ <span class="command">ls -la</span></div>
+            <div class="output">
+                drwxr-xr-x  2 user user 4096 May 25 19:20 .<br>
+                drwxr-xr-x 15 user user 4096 May 25 19:00 ..<br>
+                -rw-r--r--  1 user user 1520 May 25 19:15 script.py<br>
+                -rwxr-xr-x  1 user user 8432 May 25 19:20 motor_compilado
+            </div>
+            
+            <div><span class="prompt-user">user@ubuntu</span>:<span class="prompt-dir">~/projetos/maker</span>$ <span class="command">echo "ola eu sou o cauan"</span><span class="cursor"></span></div>
+        </div>
+    </div>
+
+</body>
 </html>
