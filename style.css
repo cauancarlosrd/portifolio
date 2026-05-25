@@ -1,95 +1,26 @@
-/* Reset básico e fundo da página */
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #1e1e1e; 
-    margin: 0;
-    font-family: sans-serif;
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
 }
 
-/* Estrutura principal da janela */
-.terminal-window {
-    width: 750px;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
-    border: 1px solid #333;
-}
-
-/* Barra superior do GNOME */
-.terminal-header {
-    background-color: #2b2b2b;
-    padding: 10px;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    position: relative;
-    border-bottom: 1px solid #1a1a1a;
-}
-
-.terminal-title {
-    color: #a0a0a0;
-    font-size: 14px;
+.titulo{
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
     font-weight: bold;
-    text-shadow: 0 1px 0 rgba(0,0,0,0.5);
 }
 
-.terminal-buttons {
-    position: absolute;
-    right: 15px; 
-    display: flex;
-    gap: 8px;
+.subtitulo{
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    font-weight: 900;
 }
 
-.button {
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    background-color: #4f4f4f; 
-}
-
-/* Detalhe de cor no botão de fechar para contraste sutil */
-.button.close {
-    background-color: #e95420; } 
-.button.minimize {
-    background-color: #767676; }
-.button.maximize {
-    background-color: #767676; }
-
-/* Área do terminal baseada na paleta do Ubuntu */
-.terminal-body {
-    background-color: #300a24; 
-    color: #ffffff;
-    padding: 20px;
-    font-family: 'Ubuntu Mono', 'Consolas', 'Courier New', monospace;
-    font-size: 16px;
-    min-height: 350px;
-    line-height: 1.4;
-    }
-
-/* Simulação das cores ANSI do prompt */
-.prompt-user {
-    color: #8ae234; font-weight: bold; } 
-.prompt-dir {
-    color: #729fcf; font-weight: bold; } 
-.command {
-    color: #eeeeec; }
-.output {
-    color: #d3d7cf; margin-top: 5px; margin-bottom: 15px;}
-
-/* Animação CSS pura para o cursor de bloco */
-.cursor {
-    display: inline-block;
-    width: 9px;
-    height: 18px;
-    background-color: #ffffff;
-    vertical-align: middle;
-    animation: blink 1s step-end infinite;
-}
-
-@keyframes blink {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0; }
+.paragrafo{
+    color: white;
+    padding: 0px;
+    margin: 0px;
 }
